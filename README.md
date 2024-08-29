@@ -278,20 +278,18 @@ This section provides the statistical summary of the energy measurements and dur
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
 |-----------|----------|----------|-------------|
-| MEAN      | 429889    | 61240    | 42096    |
-| MEDIAN    | 383483    | 53375    | 40110    |
-| MODE      | 377807,351196,368041,383605,374389,368102,371093 | 49805,51086    | 40696    |
+| MEAN      | 190546  | 19709   | 34353   |
+| MEDIAN    | 178864  | 12268   | 15825   |
 
 | PARALLEL | CPU  | DRAM  | Duration |
 |-----------|----------|----------|-------------|
-| MEAN      | 416521.19 | 59617.74 | 40931.6  |
-| MEDIAN    | 385985.5  | 54016    | 39786    |
-| MODE      | 367919,378417    | 62744,55481,60303,50354,47729,48584,47241,46081    |      |
+| MEAN      | 192874  | 16038   | 26915   |
+| MEDIAN    | 181641  | 11352   | 14965   |
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -3.11     | -2.65    | -2.77    |
-| MEDIAN    | 0.65      | 1.20     | -0.81    |
+| MEAN      | 1       | -19     | -22     |
+| MEDIAN    | 2       | -7      | -5      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/IoT%20Client.csv)
@@ -301,20 +299,18 @@ For raw data, refer to the
 
 | SEQUENTIAL       | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 428033    | 60837    | 41998    |
-| MEDIAN    | 380829    | 53528    | 40040    |
-| MODE      | 397643,381286,359008    | 51453,55725    |      |
+| MEAN      | 190106  | 19695   | 34422   |
+| MEDIAN    | 177704  | 12268   | 16004   |
 
 | PARALLEL    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 414857    | 59278    | 40851    |
-| MEDIAN    | 381561    | 53589    | 39496    |
-| MODE      |     | 62866,63965,67139,57983,50170,48157,47485,47974,48279,49133 | 38630,37164    |
+| MEAN      | 192218  | 16009   | 26940   |
+| MEDIAN    | 181335  | 11109   | 15020   |
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -3.08     | -2.56    | -2.73    |
-| MEDIAN    | 0.19      | 0.11     | -1.36    |
+| MEAN      | 1       | -19     | -22     |
+| MEDIAN    | 2       | -9      | -6      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/Authentication%20Server.csv)
@@ -325,20 +321,18 @@ For raw data, refer to the
 
 | SEQUENTIAL       | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 428978    | 60949    | 42013    |
-| MEDIAN    | 382415    | 53558    | 40270    |
-| MODE      | 373839,388549    | 54504    |      |
+| MEAN      | 190375  | 19706   | 34392   |
+| MEDIAN    | 177123  | 12146   | 15813   |
 
 | PARALLEL    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 415696    | 59390    | 40839    |
-| MEDIAN    | 385497    | 53253    | 39439    |
-| MODE      | 404113,360839    | 48584,45593    | 37633,39016     |
+| MEAN      | 192592  | 16016   | 26934   |
+| MEDIAN    | 181885  | 10925   | 14977   |
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -3.10     | -2.56    | -2.80    |
-| MEDIAN    | 0.81      | -0.57    | -2.06    |
+| MEAN      | 1       | -19     | -22     |
+| MEDIAN    | 3       | -10     | -5      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/Home%20Base%20Station.csv)
@@ -349,20 +343,18 @@ For raw data, refer to the
 
 | SEQUENTIAL       | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 430704    | 61279    | 42164    |
-| MEDIAN    | 383605    | 54016    | 40349    |
-| MODE      | 352416,388183    | 48950    | #N/A     |
+| MEAN      | 190384  | 19704   | 34355   |
+| MEDIAN    | 178039  | 12268   | 15867   |
 
 | PARALLEL    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 417616    | 59749    | 41009    |
-| MEDIAN    | 383513    | 53864    | 39699    |
-| MODE      | #N/A     | 64026,50415,50476,47851,49683     |      |
+| MEAN      | 192296  | 16007   | 26874   |
+| MEDIAN    | 181213  | 11261   | 14922   |
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -3.04     | -2.50    | -2.74    |
-| MEDIAN    | -0.02     | -0.28    | -1.61    |
+| MEAN      | 1       | -19     | -22     |
+| MEDIAN    | 2       | -8      | -6      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/Visiting%20Base%20Station.csv)
