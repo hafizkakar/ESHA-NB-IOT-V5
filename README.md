@@ -450,20 +450,18 @@ This section provides the statistical summary of the energy measurements and dur
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
 |-----------|----------|----------|-------------|
-| MEAN  | 36113    | 3398      | 4929         |
-| MEDIAN| 34851    | 2930      | 4879         |
-| MODE  | 34668    | 2869      | 4849         |
+| MEAN      | 53465   | 9356    | 21963   |
+| MEDIAN    | 18005   | 1465    | 785     |
 
 | PARALLEL | CPU  | DRAM  | Duration |
 |-----------|----------|----------|-------------|
-| MEAN      | 36693    | 3354      | 4916         |
-| MEDIAN    | 35401    | 2990      | 4877         |
-| MODE      | 34912    | 2930      | 4860         |
+| MEAN      | 25083   | 3944    | 8038    |
+| MEDIAN    | 13550   | 1343    | 817     |
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1.61     | -1.29     | -0.26     |
-| MEDIAN    | 1.58     | 2.05      | -0.04     |
+| MEAN      | -53     | -58     | -63     |
+| MEDIAN    | -25     | -8      | 4       |
 
 
 For raw data, refer to the
@@ -474,20 +472,18 @@ For raw data, refer to the
 
 | SEQUENTIAL       | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN           | 36317| 3398  | 4937  |
-| MEDIAN         | 34912   | 2930    | 4888.5   |
-| MODE          | 34668   | 2869    | 4883,4854,4855    |
+| MEAN      | 53509   | 9356    | 21981   |
+| MEDIAN    | 18005   | 1465    | 799     |
 
 | PARALLEL    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN           | 36888| 3371 | 4927  |
-| MEDIAN         | 35401   | 2991    | 4892.5   |
-| MODE          | 36682,34912   | 2930   | 4820,4860  |
+| MEAN      | 25075   | 3950    | 8042    |
+| MEDIAN    | 13550   | 1343    | 826     |
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN           |1.57|	-0.79|	-0.20|
-| MEDIAN         |1.40|	2.08	|0.08|
+| MEAN      | -53     | -58     | -63     |
+| MEDIAN    | -25     | -8      | 3       |
 
 
 For raw data, refer to the
