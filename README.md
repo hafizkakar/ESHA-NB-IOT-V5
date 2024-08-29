@@ -466,7 +466,7 @@ This section provides the statistical summary of the energy measurements and dur
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Transactions/IoT.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Transactions/EIoT.csv)
+- [SHA-256 Parallel Access Measurement Details](./Device%20Transactions/E-IoT.csv)
 #
 > **BASE STATION**
 
@@ -488,7 +488,7 @@ For raw data, refer to the
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Transactions/BaseStation.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Transactions/EBaseStation.csv)
+- [SHA-256 Parallel Access Measurement Details](./Device%20Transactions/E-BaseStation.csv)
   
 Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
