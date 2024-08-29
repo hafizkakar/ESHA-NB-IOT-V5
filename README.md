@@ -116,21 +116,19 @@ This section provides the statistical summary of the energy measurements and dur
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
 |-----------|----------|----------|-------------|
-| Mean      | 293,547| 35,991| 27,378|
-| Median    | 260,192| 33,264| 26,559|
-| Mode      | 245,788| 31,982| 26,289, 33,569|
+| MEAN      | 135051 | 12523| 23940 |
+| MEDIAN    | 130462      | 7386   | 11310     |
 
 | PARALLEL | CPU  | DRAM  | Duration |
 |-----------|----------|----------|-------------|
-| Mean      | 290,142  | 36,888 | 27,299 |
-| Median    | 263,549  | 34,699 | 26,255 |
-| Mode      | 239,197  | 30,090 | 26,758,24,608 |
+| MEAN      | 125495 | 9650 | 17977 |
+| MEDIAN    | 122620   | 6287      | 10769     |
 
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| Mean      | -1.16 | 2.49  | -0.29 |
-| Median    | 1.29  | 4.31  | -1.15 |
+| MEAN      | -7      | -23     | -25     |
+| MEDIAN    | -6      | -15     | -5      |
 
 
 For raw data, refer to the
