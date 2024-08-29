@@ -1,0 +1,3 @@
+To compile ESHA256.c. The command will generate esha.out to be used by pythone code. 
+# gcc -shared -o esha.so -fPIC esha.c -lm
+# python3 ESHA256.py
