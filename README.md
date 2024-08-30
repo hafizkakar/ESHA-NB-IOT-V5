@@ -489,20 +489,21 @@ For raw data, refer to the
 Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
 - Duration = Microseconds
+
+---
+<h3>Overall Statistical Summary (SHA-256 Sequential vs Parallel)</h3>
 ---
 
-<h4>Device ID Procedure</h4>
 
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
+| Unique ID  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client            | -7.1     | -22.9    | -24.9    |
 | Authentication Server | -6.5     | -22.7    | -24.6    |
 | Data Server           | -7.1     | -23.0    | -25.0    |
 | **Average %**         | **-6.9** | **-22.9**| **-24.8**|
 
-<h4>Device Join Procedure</h4>
 
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
+| Join  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client               | 1.22     | -18.62   | -21.65   |
 | Authentication Server    | 1.11     | -18.72   | -21.74   |
@@ -510,13 +511,21 @@ Measurement Units
 | Visiting Base Station    | 1.00     | -18.76   | -21.78   |
 | **Average %**            | **1.13** | **-18.71**| **-21.71**|
 
-<h4>Device Transactions Procedure</h4>
 
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
+| Transactions  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | Base Station| -53.14   | -57.78   | -63.41   |
 | IoT Client  | -53.09   | -57.85   | -63.40   |
 | **Average %** | **-53.11** | **-57.81** | **-63.41** |
+
+
+| Total  %    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| Device ID           | -6.9        | -22.9      | -24.8      |
+| Device Join         | 1.13        | -18.71     | -21.71     |
+| Device Transaction  | -53.11      | -57.81     | -63.41     |
+| **Average**         | **-19.63**  | **-33.14** | **-36.64** |
+
 ---
 
 
