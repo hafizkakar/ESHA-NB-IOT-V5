@@ -491,8 +491,8 @@ Measurement Units
 - Duration = Microseconds
 
 ---
-<h3>Overall Statistical Summary (SHA-256 Sequential vs Parallel)</h3>
----
+<h2>Overall Statistical Summary (SHA-256 Sequential vs Parallel)</h2>
+
 
 
 | Unique ID     | CPU   | DRAM  | Duration |
