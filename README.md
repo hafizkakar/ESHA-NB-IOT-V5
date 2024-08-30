@@ -186,16 +186,6 @@ Measurement Units
 - Duration = Microseconds
 ---
 
-<h3>Device ID Procedure - Overall Summary</h3>
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| IoT Client            | -7.1     | -22.9    | -24.9    |
-| Authentication Server | -6.5     | -22.7    | -24.6    |
-| Data Server           | -7.1     | -23.0    | -25.0    |
-| **Average %**         | **-6.9** | **-22.9**| **-24.8**|
-
-
 
 <br/>
 
@@ -500,6 +490,18 @@ Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
 - Duration = Microseconds
 ---
+
+<h3>Device ID Procedure - Overall Summary</h3>
+
+| PERCENTAGE  %    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client            | -7.1     | -22.9    | -24.9    |
+| Authentication Server | -6.5     | -22.7    | -24.6    |
+| Data Server           | -7.1     | -23.0    | -25.0    |
+| **Average %**         | **-6.9** | **-22.9**| **-24.8**|
+
+---
+
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h4>
 
