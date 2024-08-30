@@ -495,7 +495,7 @@ Measurement Units
 ---
 
 
-| Unique ID  %    | CPU   | DRAM  | Duration |
+| Unique ID     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client            | -7.1     | -22.9    | -24.9    |
 | Authentication Server | -6.5     | -22.7    | -24.6    |
@@ -503,7 +503,7 @@ Measurement Units
 | **Average %**         | **-6.9** | **-22.9**| **-24.8**|
 
 
-| Join  %    | CPU   | DRAM  | Duration |
+| Join     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client               | 1.22     | -18.62   | -21.65   |
 | Authentication Server    | 1.11     | -18.72   | -21.74   |
@@ -512,19 +512,19 @@ Measurement Units
 | **Average %**            | **1.13** | **-18.71**| **-21.71**|
 
 
-| Transactions  %    | CPU   | DRAM  | Duration |
+| Transactions    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | Base Station| -53.14   | -57.78   | -63.41   |
 | IoT Client  | -53.09   | -57.85   | -63.40   |
 | **Average %** | **-53.11** | **-57.81** | **-63.41** |
 
 
-| Total  %    | CPU   | DRAM  | Duration |
+| Total     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | Device ID           | -6.9        | -22.9      | -24.8      |
 | Device Join         | 1.13        | -18.71     | -21.71     |
 | Device Transaction  | -53.11      | -57.81     | -63.41     |
-| **Average**         | **-19.63**  | **-33.14** | **-36.64** |
+| **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
 
 ---
 
