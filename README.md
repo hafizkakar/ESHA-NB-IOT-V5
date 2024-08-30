@@ -491,7 +491,7 @@ Measurement Units
 - Duration = Microseconds
 ---
 
-<h3>Device ID Procedure - Overall Summary</h3>
+<h3>Device ID Procedure</h3>
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
@@ -499,6 +499,18 @@ Measurement Units
 | Authentication Server | -6.5     | -22.7    | -24.6    |
 | Data Server           | -7.1     | -23.0    | -25.0    |
 | **Average %**         | **-6.9** | **-22.9**| **-24.8**|
+
+<h3>Device Join Procedure</h3>
+
+| PERCENTAGE  %    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client               | 1.22     | -18.62   | -21.65   |
+| Authentication Server    | 1.11     | -18.72   | -21.74   |
+| Home Base Station        | 1.16     | -18.73   | -21.69   |
+| Visiting Base Station    | 1.00     | -18.76   | -21.78   |
+| **Average %**            | **1.13** | **-18.71**| **-21.71**|
+
+
 
 ---
 
