@@ -186,15 +186,14 @@ Measurement Units
 - Duration = Microseconds
 ---
 
-<h3>Summary</h3>
+<h3>Device ID Procedure - Overall Summary</h3>
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client            | -7.1     | -22.9    | -24.9    |
 | Authentication Server | -6.5     | -22.7    | -24.6    |
 | Data Server           | -7.1     | -23.0    | -25.0    |
-|--------------------|---------|---------|----------|
-| Average %             | -6.9     | -22.9    | -24.8    |
+| **Average %**         | **-6.9** | **-22.9**| **-24.8**|
 
 
 
