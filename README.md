@@ -526,7 +526,7 @@ Measurement Units
 | **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
 
 ---
-
+<!--
 <h2> Standard Deviation </h2>
 
 | Unique ID    | CPU   | DRAM  | Duration |
@@ -547,7 +547,7 @@ Measurement Units
 |--------------------|---------|---------|----------|
 | Base Station|  20,075.1  |  3,825.8  |  9,843.8 |
 | IoT Client  |  20,075.1  | 3,823.8   |  9,846.2  |
-
+-->
 ---
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h4>
