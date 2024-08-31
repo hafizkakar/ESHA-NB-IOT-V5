@@ -503,6 +503,12 @@ Measurement Units
 | **Average %**         | **-6.90**| **-22.87**| **-24.82**|
 
 
+| Unique ID \sigma    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client            | 4,778    | 1,436.5   | 2,918   |
+| Authentication Server | 4,383.5    | 1,422   | 4,157.5   |
+| Data Server           | 6,811.6    | 2,037.2   | 4,237.7   |
+
 | Join     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client               | 1.22     | -18.62   | -21.65   |
