@@ -493,7 +493,7 @@ Measurement Units
 ---
 <h2>Overall Statistical Summary (SHA-256 Sequential vs Parallel)</h2>
 
-
+<h2>Performance Metric</h2>
 
 | Unique ID     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
@@ -501,13 +501,6 @@ Measurement Units
 | Authentication Server | -6.50    | -22.70   | -24.56   |
 | Data Server           | -7.12    | -22.96   | -24.99   |
 | **Average %**         | **-6.90**| **-22.87**| **-24.82**|
-
-
-| Unique ID \sigma    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| IoT Client            | 4,778    | 1,436.5   | 2,918   |
-| Authentication Server | 4,383.5    | 1,422   | 4,157.5   |
-| Data Server           | 6,811.6    | 2,037.2   | 4,237.7   |
 
 | Join     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
@@ -533,7 +526,27 @@ Measurement Units
 | **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
 
 ---
+<h2> Standard Deviation </h2>
+| Unique ID    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client            | 4,778    | 1,436.5   | 2,918   |
+| Authentication Server | 4,383.5    | 1,422   | 4,157.5   |
+| Data Server           | 6,811.6    | 2,037.2   | 4,237.7   |
 
+
+| Join     | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client               |      |    |    |
+| Authentication Server    |      |   |    |
+| Home Base Station        |      |    |    |
+| Visiting Base Station    |     |    |    |
+
+| Transactions    | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| Base Station|    |    |   |
+| IoT Client  |    |    |    |
+
+---
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h4>
 
