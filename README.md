@@ -526,7 +526,9 @@ Measurement Units
 | **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
 
 ---
+
 <h2> Standard Deviation </h2>
+
 | Unique ID    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
 | IoT Client            | 4,778    | 1,436.5   | 2,918   |
@@ -536,15 +538,15 @@ Measurement Units
 
 | Join     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| IoT Client               |      |    |    |
-| Authentication Server    |      |   |    |
-| Home Base Station        |      |    |    |
-| Visiting Base Station    |     |    |    |
+| IoT Client               | 1,647.8     | 2,599.7   |   5,259.7 |
+| Authentication Server    |   1,493.4   |  2,605.4 | 5,290.4   |
+| Home Base Station        |  1,564.5    |  2,608.5  | 5,269.1   |
+| Visiting Base Station    |  1,351.6   |  2,611.5  |  5,219.7  |
 
 | Transactions    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| Base Station|    |    |   |
-| IoT Client  |    |    |    |
+| Base Station|  20,075.1  |  3,825.8  |  9,843.8 |
+| IoT Client  |  20,075.1  | 3,823.8   |  9,846.2  |
 
 ---
 
