@@ -555,13 +555,6 @@ Measurement Units
 | Device Transaction  | -53.11      | -57.81     | -63.41     |
 | **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
 
----
-
-<h4 align="center"> INITIAL EXPERIMENT - SINGLE SYSTEM </h4>
-[Check out this repository](https://github.com/example-user/example-repo)
-
----
-
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h4>
 
