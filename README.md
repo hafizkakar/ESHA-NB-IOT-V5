@@ -209,9 +209,10 @@ Measurement Units
 * (3) After authentication, NB-IoT device sends 'Leave Request' to Home Base Station along with address of Visiting Base Station.
 * (4-6) Home Base Station 'Approve' the request. Then, Base Station 'Saves' deployed Smart Contract along with transactions recorded in JSON format in Remix IDE. The file is then uploaded to Inter Planetary File System (IPFS) and resulting File Hash is shared with Visiting Base Station.
 * (7-10) NB-IoT sends 'Join Request' to Visiting Base Station. Visiting Base Station downloads JSON file from IPFS, verifies IoT device using Unique ID and then sends 'New Unique ID' and 'Encryption Secret' to NB-IoT device. The New Unique ID and Encryption Secret is then used by Non-Interactive ZKP for block approval.
+* ECM-SHA256 implementation highlighted in blue.
 
 <p align="center">	  
-  <img src="./Figures/Fig3.png" width="750" title="NB-IoT Framework">
+  <img src="./Figures/join.jpg" width="550" title="NB-IoT Framework">
 </p>
 
 # 
@@ -405,10 +406,12 @@ Measurement Units
 * Devices generate SHA256 hash using Timestamp, nonce, unique ID, reputation, message and Encryption Secret.
 * Resulting hash is sent to Base Station along with Timestamp, nonce, unique ID, reputation, message.
 * Base station will generate and compare its hash with received hash and on verification will append the transaction to its merkle tree and linear hash chain.
+* ECM-SHA256 implementation highlighted in blue.
 
 <p align="center">	  
-  <img src="./Figures/Fig6.png" width="550" title="NB-IoT Framework">
+  <img src="./Figures/transaction.jpg" width="350" title="NB-IoT Framework">
 </p>
+
 
 # 
 > **IoT Client**
@@ -554,7 +557,7 @@ Measurement Units
 
 ---
 
-<h4 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h4>
+<h4 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h4>
 
 <p align="center">
   <a href="#Unique-ID-Generation"> Unique ID Generation </a> •
