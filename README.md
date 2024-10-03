@@ -137,8 +137,8 @@ This section provides the statistical summary of the energy measurements and dur
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -6      | -15     | -5      |
+| MEAN      | 7      | 23     | 25     |
+| MEDIAN    | 6      | 15     | 5      |
 
 
 For raw data, refer to the
@@ -161,8 +161,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -5      | -13     | -4      |
+| MEAN      | 7      | 23     | 25     |
+| MEDIAN    | 5      | 13     | 4      |
 
 
 For raw data, refer to the
@@ -186,8 +186,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -7      | -17     | -4      |
+| MEAN      | 7      | 23     | 25     |
+| MEDIAN    | 7      | 17     | 4      |
 
 
 For raw data, refer to the
@@ -301,8 +301,8 @@ This section provides the statistical summary of the energy measurements and dur
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -7      | -5      |
+| MEAN      | 1       | 19     | 22     |
+| MEDIAN    | 2       | 7      | 5      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/IoT%20Client.csv)
@@ -324,8 +324,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -9      | -6      |
+| MEAN      | 1       | 19     | 22     |
+| MEDIAN    | 2       | 9      | 6      |
 
 
 For raw data, refer to the
@@ -349,8 +349,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 3       | -10     | -5      |
+| MEAN      | 1       | 19     | 22     |
+| MEDIAN    | 3       | 10     | 5      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/Home%20Base%20Station.csv)
@@ -373,8 +373,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -8      | -6      |
+| MEAN      | 1       | 19     | 22     |
+| MEDIAN    | 2       | 8      | 6      |
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20Join/Visiting%20Base%20Station.csv)
@@ -484,8 +484,8 @@ This section provides the statistical summary of the energy measurements and dur
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -53     | -58     | -63     |
-| MEDIAN    | -25     | -8      | 4       |
+| MEAN      | 53     | 58     | 63     |
+| MEDIAN    | 25     | 8      | 4       |
 
 
 For raw data, refer to the
@@ -508,8 +508,8 @@ For raw data, refer to the
 
 | PERCENTAGE  %    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -53     | -58     | -63     |
-| MEDIAN    | -25     | -8      | 3       |
+| MEAN      | 53     | 58     | 63     |
+| MEDIAN    | 25     | 8      | 3       |
 
 
 For raw data, refer to the
@@ -527,33 +527,33 @@ Measurement Units
 
 | Unique ID     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| IoT Client            | -7.08    | -22.94   | -24.91   |
-| Authentication Server | -6.50    | -22.70   | -24.56   |
-| Data Server           | -7.12    | -22.96   | -24.99   |
-| **Average %**         | **-6.90**| **-22.87**| **-24.82**|
+| IoT Client            | 7.08    | 22.94   | 24.91   |
+| Authentication Server | 6.50    | 22.70   | 24.56   |
+| Data Server           | 7.12    | 22.96   | 24.99   |
+| **Average %**         | **6.90**| **22.87**| **24.82**|
 
 | Join     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| IoT Client               | 1.22     | -18.62   | -21.65   |
-| Authentication Server    | 1.11     | -18.72   | -21.74   |
-| Home Base Station        | 1.16     | -18.73   | -21.69   |
-| Visiting Base Station    | 1.00     | -18.76   | -21.78   |
-| **Average %**            | **1.13** | **-18.71**| **-21.71**|
+| IoT Client               | 1.22     | 18.62   | 21.65   |
+| Authentication Server    | 1.11     | 18.72   | 21.74   |
+| Home Base Station        | 1.16     | 18.73   | 21.69   |
+| Visiting Base Station    | 1.00     | 18.76   | 21.78   |
+| **Average %**            | **1.13** | **18.71**| **21.71**|
 
 
 | Transactions    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| Base Station| -53.14   | -57.78   | -63.41   |
-| IoT Client  | -53.09   | -57.85   | -63.40   |
-| **Average %** | **-53.11** | **-57.81** | **-63.41** |
+| Base Station| 53.14   | 57.78   | 63.41   |
+| IoT Client  | 53.09   | 57.85   | 63.40   |
+| **Average %** | **53.11** | **57.81** | **63.41** |
 
 
 | Total     | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| Device ID       | -6.90    | -22.87   | -24.82   |    
-| Device Join         | 1.13        | -18.71     | -21.71     |
-| Device Transaction  | -53.11      | -57.81     | -63.41     |
-| **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
+| Device ID       | 6.90    | 22.87   | 24.82   |    
+| Device Join         | 1.13        | 18.71     | 21.71     |
+| Device Transaction  | 53.11      | 57.81     | 63.41     |
+| **Average %**         | **19.63**  | **33.14** | **36.64** |
 
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h4>
