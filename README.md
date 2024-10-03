@@ -1,4 +1,4 @@
-<h2 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h2>
+<h2 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h2>
 
 <p align="center">
   <a href="#Unique-ID-Generation"> Unique ID Generation </a> •
@@ -7,16 +7,22 @@
 </p>
 
 # Motivation
-The goal of this study is to further save energy consumption by NB-IoT Framework in "Enabling secure lightweight mobile Narrowband Internet of Things (NB-IoT) applications using blockchain" by using the Energy Efficient SHA-256 (ESHA-256) algorithm.   
+The goal of this study is to further save energy consumption by NB-IoT Framework in "Enabling secure lightweight mobile Narrowband Internet of Things (NB-IoT) applications using blockchain" by using the ECM-SHA256 algorithm.   
 
-# ESHA-256
-<p align="center"><img src="./Figures/Hash.png" width="750" title="ESHA-256">
+# SHA-256 
+<p align="center"><img src="./Figures/sha.jpeg" width="400" height="250" title="ECM-SHA256">
+</p>
+SHA-256 algorithm access message data from memory banks sequentially, as shown in the above figure. 
+
+
+# ECM-SHA256
+<p align="center"><img src="./Figures/esha.jpeg" width="600" height="250" title="ECM-SHA256">
 </p>
 
-ESHA-256 algorithm reduces the computational power required for running the SHA-256 algorithm by access message data from memory banks in parallel rather than sequentially, as shown in the above figure. 
+ECM-SHA256 algorithm reduces the computational power required for running the SHA-256 algorithm by access message data from memory banks in parallel rather than sequentially, as shown in the above figure. 
 
 <!--
-<p>This section provides the statistical summary of the energy measurements of ESHA-256 Sequential/Parallel using pyRAPL (Python Running Average Power Limit).</p>
+<p>This section provides the statistical summary of the energy measurements of ECM-SHA256 Sequential/Parallel using pyRAPL (Python Running Average Power Limit).</p>
 
 | Block Size | Bytes     | Sequential | Parallel  | Energy Savings |
 |-------------|-----------|------------|-----------|----------------|
@@ -29,10 +35,11 @@ ESHA-256 algorithm reduces the computational power required for running the SHA-
 -->
 #
 # ESHA-NB-IOT Framework
+<!--
 <p align="center">	  
   <img src="./Figures/Fig1.png" width="500" title="NB-IoT Framework">.....<img src="./Figures/Fig7.png" width="300" title="NB-IoT Framework">
 </p>
-
+-->
 * NB-IOT: devices are resource constrained with less computational power, low memory, storage and bandwidth. Therefore, devices only store hash of transactions initiated by them in an array as linear hash chain. By design, NB-IoT devices will have device address and reputation (default 4).
 * BASE STATIONS: Transactions initiated by NB-IoT devices can only be authorized by base station using non-interactive ZKP and then added to blockchain. The base station dynamically partitions its memory to store device transactions in a merkle tree and allocate the rest to store individual device transactions in a linear hash chain for faster access.
 * ETHEREUM BLOCKCHAIN: NB-IoT Devices and base stations are connected through ethereum blockchain using Remix IDE Smart Contracts. Non-interactive ZKP (HMAC) is used as consensus algorithm for block approval.
@@ -49,13 +56,15 @@ Non-Interactive Zero-Knowledge Proof: The prover verifies that it knows secret i
 
 * For anonymity, when NB-IoT device joins a new cell, the data server issues a 'New Unique ID' and 'Encryption Secret' to the device after authentication.
 * The Unique ID is used as identifier in blockchain.
-* IoT Devices are assigned ‘Device Address’ as permanent ID by the Data Server when they join blockchain for the first time. 
+* IoT Devices are assigned ‘Device Address’ as permanent ID by the Data Server when they join blockchain for the first time.
+* ECM-SHA256 implementation highlighted in blue.
   
 <p align="center">Seed = Old Unique ID | Encryption Secret | Nonce  <br/>Unique ID = UUID(random.getrandbits(Seed)</p>
 <br/>
 <p align="center">	  
-  <img src="./Figures/Fig2.png" width="550" title="NB-IoT Framework">
+  <img src="./Figures/id.jpg" width="550" title="NB-IoT Framework">
 </p>
+
 
 # 
 > **IoT Client**
